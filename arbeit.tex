@@ -13,7 +13,7 @@
 \usepackage[left=3cm,right=3cm,top=3cm,bottom=4cm]{geometry}
 \usepackage[english, ngerman]{babel}
 \usepackage[utf8]{inputenc} %damit k{\"o}nnen Umlaute ganz normal geschrieben werden. 
-
+\usepackage{indentfirst}  %Formatter 
 \usepackage{listings} %Fuer Codelistings
 
 \usepackage{subfigure} %f{\"u}r mehrteilige Grafiken
@@ -28,27 +28,6 @@
 \pagestyle{scrheadings}   % kopzeilenseitenstil
 
 \usepackage{float} % adds location parameter [H] to [htb] to force figures and tables to a location, no floating
-
-
-
-%\usepackage[
-%a4paper=true, % a4
-%pdftitle={The title of this paper}, %title to display for pdfs
-%pdfauthor={The Author}, %set author
-%dvipdfmx, % must be used if pdf is created from the dvi file rather than by running pdflatex. Otherwise links won't work
-%colorlinks,% set link color for all links to black, i.e. invisible but working links
-%citecolor=black,%
-%filecolor=black,%
-%linkcolor=black,%
-%urlcolor=black, %
-%plainpages=false, %used with pdfpagelabels to make pdf readers show roman and arabic page numbers correctly
-%pdfpagelabels, %used with plainpages=false to make pdf readers show roman and arabic page numbers correctly
-%pagebackref=true %false: no back-references in bibliography to citations in text
-%]{hyperref} %include hyperlinks for citations, urls, and references
-%CAUTION: breaks color settings in dvi, pdf works fine
-%%%%end: use hyperlinks
-
-
 \usepackage{setspace}
 \usepackage{url}          % fuer urls: schreibweise ist z.B. \url{http://www.uni-mannheim.de}
 \usepackage{nomencl} % um Abkürzungen aufzunehmen: \abbrev{PDA}{personal digital assistant}
@@ -68,25 +47,17 @@
 
 
 %Inhaltsverzeichnis
-\usepackage
-%[
-%tocfullflat,			%alle Eintraege left-aligned, alternativ: tocflat
-%tocbreakscareless		%page break between toc entry allowed
-%]
-{tocstyle}			%mehr Kontrolle ueber Inhaltsverzeichnis
+\usepackage{tocstyle}			%mehr Kontrolle ueber Inhaltsverzeichnis
 \usetocstyle{allwithdot}	%ensure there are dots in table of contents, alternativ: noonewithdot, nopagecolumn
 % docu http://www.tug.org/texlive/devsrc/Master/texmf-dist/source/latex/koma-script/tocstyle.dtx
 \setcounter{secnumdepth}{3} %numbering up to fifth level in table of contents
 \setcounter{tocdepth}{3} %show entries in toc up to fifth level (subsubsubsubsection)
 
 
-\setlength{\parindent}{0pt}		% Einzug fuer neuen Absatz
 \setlength{\parskip}\medskipamount % Abstand neuer Absatz, besser als explizite Angabe in pt
-
 \onehalfspacing %Zeilenabstand 1,5
 
 
-% kapitel{\"u}berschriften in schriftart mit serifen
 \setkomafont{sectioning}{\normalfont\normalcolor\bfseries}
 
 % gestaltung der kopfzeilen
@@ -100,6 +71,9 @@
 \setkomafont{pagenumber}{\normalfont\bfseries}
 \automark{chapter}
 \automark*{section}
+
+
+
 
 % ----- ende der pr{\"a}ambel ----------------------------------
 
