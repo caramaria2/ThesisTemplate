@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: arbeit.aux
+A level-1 auxiliary file: kapitel/titel.aux
+A level-1 auxiliary file: kapitel/abstract.aux
+A level-1 auxiliary file: kapitel/introduction.aux
+A level-1 auxiliary file: kapitel/grafiken.aux
+The style file: literatur/IEEEtran.bst
+Illegal, another \bibstyle command---line 20 of file arbeit.aux
+ : \bibstyle
+ :          {literatur/apa}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: kapitel/append.aux
+A level-1 auxiliary file: kapitel/erklaerung.aux
+A level-1 auxiliary file: kapitel/abtretungserklaerung.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: literatur/lit.bib
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 1 entry,
+            4024 wiz_defined-function locations,
+            824 strings with 7742 characters,
+and the built_in function-call counts, 959 in all, are:
+= -- 83
+> -- 10
+< -- 9
++ -- 6
+- -- 1
+* -- 64
+:= -- 177
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 2
+chr.to.int$ -- 18
+cite$ -- 1
+duplicate$ -- 59
+empty$ -- 58
+format.name$ -- 1
+if$ -- 194
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 9
+newline$ -- 28
+num.names$ -- 1
+pop$ -- 9
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 68
+stack$ -- 0
+substring$ -- 45
+swap$ -- 56
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 1
+warning$ -- 0
+while$ -- 5
+width$ -- 2
+write$ -- 37
+(There was 1 error message)

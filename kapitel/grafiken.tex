@@ -1,0 +1,29 @@
+\chapter{Implementation}
+
+We generally recommend the following directory structure for a software project:
+
+\begin{itemize}
+\item projektname
+  \begin{itemize}
+  \item bin
+  \item doc
+  \item lib
+  \item src
+  \end{itemize}
+\end{itemize}
+
+The software should be saved in the package de.uni-mannheim.informatik.swt.projektname under src.
+
+The source code should be entirely in English, including comments, names of functions, variables, menu items in the user interface, short explanations and program output.
+
+The code should be formatted and emitted in the \texttt{Courier New font}, as in the following example:
+
+\lstinputlisting[
+  language=Java, numbers=left, stepnumber=5, firstnumber=1, breaklines=true, 
+  basicstyle=\footnotesize,
+  numberstyle=\tiny,
+  caption={GuestbookForm.java},
+  captionpos=b,
+  label=GuestbookForm
+]
+{code/GuestbookForm.java.txt}
