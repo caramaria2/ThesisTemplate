@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.30)  12 AUG 2020 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.30)  12 AUG 2020 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,7 +143,15 @@ Class scrbook Info: Using old \@makefntext due to compatibility level
 Class scrbook Info: Redefining `\numberline' on input line 6811.
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/ntgclass/a4.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count90
+
+Local config file natbib.cfg used
+(./natbib.cfg)) (/usr/local/texlive/2019/texmf-dist/tex/latex/ntgclass/a4.sty
 Package: a4 2004/04/15 v1.2g A4 based page layout
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
@@ -159,9 +167,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count90
-\Gm@cntv=\count91
-\c@Gm@tempcnt=\count92
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -183,11 +191,11 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2019/05/04 3.31 Babel common definitions
-\babel@savecnt=\count93
+\babel@savecnt=\count94
 \U@D=\dimen111
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count94
+\bbl@dirlevel=\count95
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -211,23 +219,23 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count95
+\lst@mode=\count96
 \lst@gtempboxa=\box29
 \lst@token=\toks18
-\lst@length=\count96
+\lst@length=\count97
 \lst@currlwidth=\dimen112
-\lst@column=\count97
-\lst@pos=\count98
+\lst@column=\count98
+\lst@pos=\count99
 \lst@lostspace=\dimen113
 \lst@width=\dimen114
-\lst@newlines=\count99
-\lst@lineno=\count100
+\lst@newlines=\count100
+\lst@lineno=\count101
 \lst@maxwidth=\dimen115
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-\c@lstnumber=\count101
-\lst@skipnumbers=\count102
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
 \lst@framebox=\box30
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
@@ -237,23 +245,23 @@ Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip58
-\subfigcapskip=\skip59
+\subfigtopskip=\skip60
+\subfigcapskip=\skip61
 \subfigcaptopadj=\dimen116
-\subfigbottomskip=\skip60
+\subfigbottomskip=\skip62
 \subfigcapmargin=\dimen117
-\subfiglabelskip=\skip61
-\c@subfigure=\count103
-\c@lofdepth=\count104
-\c@subtable=\count105
-\c@lotdepth=\count106
+\subfiglabelskip=\skip63
+\c@subfigure=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@lotdepth=\count107
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip62
-\subfig@bottom=\skip63
+\subfig@top=\skip64
+\subfig@bottom=\skip65
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
@@ -281,32 +289,53 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \epsfxsize=\dimen120
 \epsfysize=\dimen121
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen122
+\ar@mcellbox=\box31
+\extrarowheight=\dimen123
+\NC@list=\toks19
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box32
+)
+\TX@col@width=\dimen124
+\TX@old@table=\dimen125
+\TX@old@col=\dimen126
+\TX@target=\dimen127
+\TX@delta=\dimen128
+\TX@cols=\count108
+\TX@ftn=\toks20
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip64
-\multirow@cntb=\count107
-\multirow@dima=\skip65
-\bigstrutjot=\dimen122
+\multirow@colwidth=\skip68
+\multirow@cntb=\count109
+\multirow@dima=\skip69
+\bigstrutjot=\dimen129
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip66
-\LTright=\skip67
-\LTpre=\skip68
-\LTpost=\skip69
-\LTchunksize=\count108
-\LTcapwidth=\dimen123
-\LT@head=\box31
-\LT@firsthead=\box32
-\LT@foot=\box33
-\LT@lastfoot=\box34
-\LT@cols=\count109
-\LT@rows=\count110
-\c@LT@tables=\count111
-\c@LT@chunks=\count112
-\LT@p@ftn=\toks19
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count110
+\LTcapwidth=\dimen130
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count111
+\LT@rows=\count112
+\c@LT@tables=\count113
+\c@LT@chunks=\count114
+\LT@p@ftn=\toks21
 )
-Class scrbook Info: longtable captions redefined on input line 27.
+Class scrbook Info: longtable captions redefined on input line 28.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -314,19 +343,19 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count113
-\rotFPtop=\skip70
-\rotFPbot=\skip71
-\rot@float@box=\box35
-\rot@mess@toks=\toks20
+\c@r@tfl@t=\count115
+\rotFPtop=\skip74
+\rotFPbot=\skip75
+\rot@float@box=\box37
+\rot@mess@toks=\toks22
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip72
-\fb@frw=\dimen124
-\fb@frh=\dimen125
-\FrameRule=\dimen126
-\FrameSep=\dimen127
+\OuterFrameSep=\skip76
+\fb@frw=\dimen131
+\fb@frh=\dimen132
+\FrameRule=\dimen133
+\FrameSep=\dimen134
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2019/02/01 v3.26b KOMA-Script package (end user inter
@@ -350,11 +379,11 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count114
-\float@exts=\toks21
-\float@box=\box36
-\@float@everytoks=\toks22
-\@floatcapt=\box37
+\c@float@type=\count116
+\float@exts=\toks23
+\float@box=\box38
+\@float@everytoks=\toks24
+\@floatcapt=\box39
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -371,22 +400,22 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks23
-\XKV@tempa@toks=\toks24
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
 )
-\XKV@depth=\count115
+\XKV@depth=\count117
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 Package tocbasic Info: setting babel extension for `nlo' on input line 155.
 Package tocbasic Info: setting babel extension for `nls' on input line 156.
-\nomlabelwidth=\dimen128
-\nom@tempdim=\dimen129
-\nomitemsep=\skip73
+\nomlabelwidth=\dimen135
+\nom@tempdim=\dimen136
+\nomitemsep=\skip77
 )
 \@nomenclaturefile=\write3
 \openout3 = `arbeit.nlo'.
 
-Package nomencl Info: Writing nomenclature file arbeit.nlo on input line 42.
+Package nomencl Info: Writing nomenclature file arbeit.nlo on input line 43.
 
 (./tocstyle.sty
 Package: tocstyle 2008/10/20 v0.2c-alpha LaTeX2e KOMA-Script package (versatile
@@ -400,7 +429,7 @@ Package tocstyle Warning: THIS IS AN ALPHA VERSION!
 (tocstyle)                THERE IS NO SUPPORT, IF YOU USE THIS PACKAGE!
 (tocstyle)                Maybe it would be better, not to load this package.
 
-\tocstyle@indentstyle=\count116
+\tocstyle@indentstyle=\count118
 Package tocstyle Info: no tocstyle.cfg found on input line 825.
 )
 exclude: leaders
@@ -414,27 +443,33 @@ exclude: leaders
 exclude: leaders
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `sectioning' that is an alias of element
-(scrkbase)             `disposition' on input line 63.
+(scrkbase)             `disposition' on input line 64.
 1: chapter
 1: section
-(./arbeit.aux (./kapitel/titel.aux) (./kapitel/abstract.aux)
-(./kapitel/content.aux) (./kapitel/introduction.aux) (./kapitel/grafiken.aux)
-(./kapitel/append.aux) (./kapitel/erklaerung.aux)
-(./kapitel/abtretungserklaerung.aux))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(./arbeit.aux (./chapter/titel.aux) (./chapter/abstract.aux)
+(./chapter/content.aux) (./chapter/introduction.aux) (./chapter/grafiken.aux)
+(./chapter/chapter3.aux) (./chapter/append.aux)
+No file kapitel/erklaerung.aux.
+)
 \openout1 = `arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -470,20 +505,20 @@ LaTeX Font Info:    ... okay on input line 87.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count117
+\c@lstlisting=\count119
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen130
-\scratchbox=\box38
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen131
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count120
+\scratchdimen=\dimen137
+\scratchbox=\box40
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen138
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -531,21 +566,21 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package tocstyle Info: prepare \l@part for redefinition on input line 87.
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 87.
-Package tocstyle Info: prepare \l@section for redefinition on input line 87.
+Package tocstyle Info: prepare \l@part for redefinition on input line 93.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 93.
+Package tocstyle Info: prepare \l@section for redefinition on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 87.
+(Font)              <12> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 87.
+(Font)              <8> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 87.
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 87.
+(Font)              <6> on input line 93.
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 93.
 
 Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
-87.
-Package tocstyle Info: prepare \l@table for redefinition on input line 87.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 87.
+93.
+Package tocstyle Info: prepare \l@table for redefinition on input line 93.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 93.
 
 
 Package tocstyle Warning: unexpected \@dottedtocline definition!
@@ -564,7 +599,7 @@ p \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode \@tem
 pdima #3\relax \advance \leftskip \@tempdima \null \nobreak \hskip -\leftskip {
 #4}\nobreak \leaders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep m
 u$}\hfill \nobreak \hb@xt@ \@pnumwidth {\hfil \normalfont \normalcolor #5\kern 
--\p@ \kern \p@ }\par }\fi  on input line 87.
+-\p@ \kern \p@ }\par }\fi  on input line 93.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -597,9 +632,9 @@ u$}\hfill \nobreak \hb@xt@ \@pnumwidth {\hfil \normalfont \normalcolor #5\kern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\openout2 = `kapitel/titel.aux'.
+\openout2 = `chapter/titel.aux'.
 
-(./kapitel/titel.tex
+(./chapter/titel.tex
 <grafiken/unilogo.png, id=1, 436.63126pt x 127.47626pt>
 File: grafiken/unilogo.png Graphic file (type png)
 <use grafiken/unilogo.png>
@@ -607,7 +642,7 @@ Package pdftex.def Info: grafiken/unilogo.png  used on input line 10.
 (pdftex.def)             Requested size: 213.3957pt x 62.30246pt.
 
 Overfull \hbox (65.01341pt too wide) in alignment at lines 30--42
-[] []
+[] [] 
  []
 
 [1
@@ -618,9 +653,9 @@ Overfull \hbox (65.01341pt too wide) in alignment at lines 30--42
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./grafi
 ken/unilogo.png>])
-\openout2 = `kapitel/abstract.aux'.
+\openout2 = `chapter/abstract.aux'.
 
- (./kapitel/abstract.tex
+ (./chapter/abstract.tex
 chapter without number
 
 Class scrbook Warning: \float@addtolists detected!
@@ -642,48 +677,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 
-] (./arbeit.toc
-m (toc, 0): 17.62482pt
-C (toc, 0): 0.0pt
-a (toc, 0): 13.5pt
-A (toc, 0): 0.0pt
-m (toc, 0): 17.62482pt
-C (toc, 0): 0.0pt
-a (toc, 0): 13.5pt
-A (toc, 0): 0.0pt
-m (toc, 0): 17.62482pt
-C (toc, 0): 0.0pt
-a (toc, 0): 13.5pt
-A (toc, 0): 0.0pt
-m (toc, 0): 17.62482pt
-C (toc, 0): 0.0pt
-a (toc, 0): 13.5pt
-A (toc, 0): 0.0pt
-m (toc, 0): 17.62482pt
-C (toc, 0): 0.0pt
-a (toc, 0): 13.5pt
-A (toc, 0): 0.0pt
-m (toc, 1): 27.02475pt
-C (toc, 1): 13.5pt
-a (toc, 1): 20.88867pt
-A (toc, 1): 13.5pt
-m (toc, 1): 27.02475pt
-C (toc, 1): 13.5pt
-a (toc, 1): 20.88867pt
-A (toc, 1): 13.5pt
-m (toc, 0): 17.62482pt
-C (toc, 0): 0.0pt
-a (toc, 0): 13.5pt
-A (toc, 0): 0.0pt
-m (toc, -1): 23.49976pt
-C (toc, -1): 0.0pt
-a (toc, -1): 23.49976pt
-A (toc, -1): 0.0pt
-m (toc, 1): 27.02475pt
-C (toc, 1): 13.5pt
-a (toc, 1): 20.88867pt
-A (toc, 1): 13.5pt
-)
+] (./arbeit.toc)
 \tf@toc=\write4
 \openout4 = `arbeit.toc'.
 
@@ -705,17 +699,14 @@ No file arbeit.nls.
 [5
 
 ]
-\openout2 = `kapitel/content.aux'.
+\openout2 = `chapter/content.aux'.
 
 
-No file kapitel/content.tex.
-\openout2 = `kapitel/introduction.aux'.
+No file chapter/content.tex.
+\openout2 = `chapter/introduction.aux'.
 
-(./kapitel/introduction.tex
+(./chapter/introduction.tex
 chapter 1.
-
-LaTeX Warning: Citation `tannenbaum' on page 1 undefined on input line 3.
-
 ) [1
 
 
@@ -723,62 +714,54 @@ LaTeX Warning: Citation `tannenbaum' on page 1 undefined on input line 3.
 
 
 ]
-\openout2 = `kapitel/grafiken.aux'.
+\openout2 = `chapter/grafiken.aux'.
 
- (./kapitel/grafiken.tex
+ (./chapter/grafiken.tex
 chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
+<grafiken/fig1.png, id=27, 426.59375pt x 123.46124pt>
+File: grafiken/fig1.png Graphic file (type png)
+<use grafiken/fig1.png>
+Package pdftex.def Info: grafiken/fig1.png  used on input line 7.
+(pdftex.def)             Requested size: 213.3957pt x 61.76059pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-
-Overfull \hbox (41.83289pt too wide) in paragraph at lines 15--16
-[]\OT1/cmr/m/n/12 The soft-ware should be saved in the pack-age de.uni-mannheim
-.informatik.swt.projektname
- []
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(./code/GuestbookForm.java.txt
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
- [2
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
+) [2
 
 
 
-])) [3] (./arbeit.bbl)
+ <./grafiken/fig1.png>]
+\openout2 = `chapter/chapter3.aux'.
+
+
+No file chapter/chapter3.tex.
+(./arbeit.bbl
+chapter without number
+) [7
+
+
+
+
+
+
+]
 part without number
-[7
+[8
 
+]
+\openout2 = `chapter/append.aux'.
 
+ (./chapter/append.tex) [9
 
 
 ]
-\openout2 = `kapitel/append.aux'.
+\openout2 = `chapter/erklaerung.aux'.
 
- (./kapitel/append.tex) [8
-
-
-]
-\openout2 = `kapitel/erklaerung.aux'.
-
- (./kapitel/erklaerung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 27--141
-
- []
-
-[9
-
-
-
-]
-\openout2 = `kapitel/abtretungserklaerung.aux'.
-
- (./kapitel/abtretungserklaerung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 29--144
+ (./chapter/erklaerung.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 27--148
 
  []
 
@@ -786,34 +769,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--144
 
 
 
-] (./arbeit.aux (./kapitel/titel.aux) (./kapitel/abstract.aux)
-(./kapitel/content.aux) (./kapitel/introduction.aux) (./kapitel/grafiken.aux)
-(./kapitel/append.aux) (./kapitel/erklaerung.aux)
-(./kapitel/abtretungserklaerung.aux))
+]
+\openout2 = `chapter/abtretungserklaerung.aux'.
 
-LaTeX Warning: There were undefined references.
+ (./chapter/abtretungserklaerung.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 29--151
 
- ) 
+ []
+
+[11
+
+
+
+] (./arbeit.aux (./chapter/titel.aux) (./chapter/abstract.aux)
+(./chapter/content.aux) (./chapter/introduction.aux) (./chapter/grafiken.aux)
+(./chapter/chapter3.aux) (./chapter/append.aux) (./chapter/erklaerung.aux)
+(./chapter/abtretungserklaerung.aux)) ) 
 Here is how much of TeX's memory you used:
- 9301 strings out of 492616
- 179655 string characters out of 6129481
- 613120 words of memory out of 5000000
- 13005 multiletter control sequences out of 15000+600000
- 9333 words of font info for 33 fonts, out of 8000000 for 9000
+ 9360 strings out of 492616
+ 181002 string characters out of 6129481
+ 404128 words of memory out of 5000000
+ 13053 multiletter control sequences out of 15000+600000
+ 9203 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,20n,76p,9085b,2174s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on arbeit.pdf (12 pages, 125748 bytes).
+ 51i,19n,70p,9085b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb>
+Output written on arbeit.pdf (12 pages, 122317 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

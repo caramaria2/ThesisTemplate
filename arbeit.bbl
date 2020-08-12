@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Tanenbaum \& Steen(2007)}]{tannenbaum}
+Tanenbaum, A.~S., \& Steen, M.~V. (2007).
+\newblock {\em {D}istributed {S}ystems - {P}rinciples and {P}aradigms\/}.
+\newblock New Jersey: Pearson Prentice Hall, 2nd edition ed.
+
+\end{thebibliography}

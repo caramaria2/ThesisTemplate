@@ -9,7 +9,7 @@
     ]{scrbook}
 
 
-%\usepackage{natbib}
+\usepackage{natbib}
 
 \usepackage{a4}  
 \usepackage[left=3cm,right=3cm,top=3cm,bottom=4cm]{geometry}
@@ -21,7 +21,8 @@
 \usepackage{subfigure} %f{\"u}r mehrteilige Grafiken
 \usepackage{epsfig}    %damit funktioniert das einbinden von grafiken {\"u}ber epsfig.
 \usepackage{graphicx}     % zum einbinden von grafiken
-\graphicspath{{grafiken}{../}{kapitel}} 
+\graphicspath{{grafiken}{../}{kapitel}}
+\usepackage{tabularx} 
 \usepackage{multirow}    
 \usepackage{longtable}	
 \usepackage{rotating}	%enable landscape pages
@@ -75,6 +76,11 @@
 \automark*{section}
 
 
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+
 
 
 % ----- ende der pr{\"a}ambel ----------------------------------
@@ -89,9 +95,9 @@
 \frontmatter      % vorspann, kapitel r{\"o}misch nummeriert
 
 \newgeometry{margin=3cm}
-\include{kapitel/titel}     % titelseite einbinden
+\include{chapter/titel}     % titelseite einbinden
 \restoregeometry
-\include{kapitel/abstract}
+\include{chapter/abstract}
 \tableofcontents            % inhaltsverzeichnis
 
 \listoffigures              % abbildungsverzeichnis
@@ -105,9 +111,10 @@
 
 
 \mainmatter       % hauptteil, kapitel lateinisch nummeriert
-\include{kapitel/content}
-\include{kapitel/introduction}
-\include{kapitel/grafiken}
+\include{chapter/content}
+\include{chapter/introduction}
+\include{chapter/grafiken}
+\include{chapter/chapter3}
 \selectlanguage{english} % jetzt sprechen wir wieder englisch
 \backmatter
 \pagenumbering{roman}
@@ -124,7 +131,7 @@
 %\bibliographystyle{plain} % very nice bib style
 %note on aer: does not like inbook entries
 %\bibliographystyle{natdin}
-\bibliographystyle{apa-good}
+\bibliographystyle{literatur/apa-good}
 
 \bibliography{literatur/lit} %Pfad zur bib-Datei
 
@@ -133,14 +140,14 @@
 %\addcontentsline{toc}{chapter}{Appendix} %add chapter to toc
 \appendix
 \addpart{\appendixname}
-\include{kapitel/append}
+\include{chapter/append}
 
 
 
 %Eidesstattliche Erklaerung
-\include{kapitel/erklaerung}
+\include{chapter/erklaerung}
 
 %Abtretungs Erklaerung
-\include{kapitel/abtretungserklaerung}
+\include{chapter/abtretungserklaerung}
 
 \end{document}
