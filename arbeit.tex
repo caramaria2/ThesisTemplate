@@ -8,7 +8,9 @@
     12pt
     ]{scrbook}
 
-%\usepackage{indentfirst}
+
+%\usepackage{natbib}
+
 \usepackage{a4}  
 \usepackage[left=3cm,right=3cm,top=3cm,bottom=4cm]{geometry}
 \usepackage[english, ngerman]{babel}
@@ -103,13 +105,10 @@
 
 
 \mainmatter       % hauptteil, kapitel lateinisch nummeriert
-%\include{kapitel/content}
+\include{kapitel/content}
 \include{kapitel/introduction}
-%\selectlanguage{ngerman} % jetzt sprechen wir deutsch.
 \include{kapitel/grafiken}
-%\selectlanguage{english} % jetzt sprechen wir wieder englisch
-%\selectlanguage{ngerman} % wenn im Inhaltsverzeichnis Appendix stehen soll, muss Engl gewaehlt sein, fuer Anhang Deutsch
-%\appendix
+\selectlanguage{english} % jetzt sprechen wir wieder englisch
 \backmatter
 \pagenumbering{roman}
 \setcounter{page}{7}
@@ -117,15 +116,15 @@
 %Bibliographie
 %waehle einen der folgenden 4 Eintraege
 %\bibliographystyle{literatur/natdin} %DIN Style Literaturverzeichnis, comment out pagebackref
-\bibliographystyle{literatur/IEEEtran} % IEEE Style Literaturverzeichnis
-\bibliographystyle{literatur/apa} % IEEE Style Literaturverzeichnis
+%\bibliographystyle{literatur/IEEEtran} % IEEE Style Literaturverzeichnis
 %\bibliographystyle{literatur/natdinCustomized} %DIN Style Literaturverzeichnis + Punkt hinter jeder Literaturangabe -> low level config fuer Zitate: natdin.cfg im Projektordner, comment out pagebackref
+
 %\bibliographystyle{literatur/natdinCustomizedEnglish} %DIN Style auf Englisch getrimmt mit Punkt hinter Literaturangabe -> low lovel config fuer Zitate: natdin.cfg im Projektordner, pagebackref kann damit nicht genutzt werden
 %\bibliographystyle{aer} % alternativ auch apalike, aer, apalike2... s.a. http://web.reed.edu/cis/Help/LaTeX/bibtexstyles.html
 %\bibliographystyle{plain} % very nice bib style
 %note on aer: does not like inbook entries
 %\bibliographystyle{natdin}
-%\bibliographystyle{apa}
+\bibliographystyle{apa-good}
 
 \bibliography{literatur/lit} %Pfad zur bib-Datei
 
@@ -136,16 +135,7 @@
 \addpart{\appendixname}
 \include{kapitel/append}
 
-% \input{kapitel/methodologyQuestionMappingTable}
-% 
-% \input{kapitel/question_origins}
-% \include{extern/fragebogenE}
-% \include{extern/fragebogenD}
-% 
-% \input{kapitel/invitationLetters}
-% 
-% 
-% \include{kapitel/coverageTable}
+
 
 %Eidesstattliche Erklaerung
 \include{kapitel/erklaerung}

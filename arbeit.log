@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.30)  12 AUG 2020 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.30)  12 AUG 2020 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,7 +306,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \c@LT@chunks=\count112
 \LT@p@ftn=\toks19
 )
-Class scrbook Info: longtable captions redefined on input line 25.
+Class scrbook Info: longtable captions redefined on input line 27.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -386,7 +386,7 @@ Package tocbasic Info: setting babel extension for `nls' on input line 156.
 \@nomenclaturefile=\write3
 \openout3 = `arbeit.nlo'.
 
-Package nomencl Info: Writing nomenclature file arbeit.nlo on input line 40.
+Package nomencl Info: Writing nomenclature file arbeit.nlo on input line 42.
 
 (./tocstyle.sty
 Package: tocstyle 2008/10/20 v0.2c-alpha LaTeX2e KOMA-Script package (versatile
@@ -414,26 +414,27 @@ exclude: leaders
 exclude: leaders
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `sectioning' that is an alias of element
-(scrkbase)             `disposition' on input line 61.
+(scrkbase)             `disposition' on input line 63.
 1: chapter
 1: section
 (./arbeit.aux (./kapitel/titel.aux) (./kapitel/abstract.aux)
-(./kapitel/introduction.aux) (./kapitel/grafiken.aux) (./kapitel/append.aux)
-(./kapitel/erklaerung.aux) (./kapitel/abtretungserklaerung.aux))
+(./kapitel/content.aux) (./kapitel/introduction.aux) (./kapitel/grafiken.aux)
+(./kapitel/append.aux) (./kapitel/erklaerung.aux)
+(./kapitel/abtretungserklaerung.aux))
 \openout1 = `arbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -530,21 +531,21 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package tocstyle Info: prepare \l@part for redefinition on input line 85.
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 85.
-Package tocstyle Info: prepare \l@section for redefinition on input line 85.
+Package tocstyle Info: prepare \l@part for redefinition on input line 87.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 87.
+Package tocstyle Info: prepare \l@section for redefinition on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 85.
+(Font)              <12> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 85.
+(Font)              <8> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 85.
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 85.
+(Font)              <6> on input line 87.
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 87.
 
 Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
-85.
-Package tocstyle Info: prepare \l@table for redefinition on input line 85.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 85.
+87.
+Package tocstyle Info: prepare \l@table for redefinition on input line 87.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 87.
 
 
 Package tocstyle Warning: unexpected \@dottedtocline definition!
@@ -563,7 +564,7 @@ p \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode \@tem
 pdima #3\relax \advance \leftskip \@tempdima \null \nobreak \hskip -\leftskip {
 #4}\nobreak \leaders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep m
 u$}\hfill \nobreak \hb@xt@ \@pnumwidth {\hfil \normalfont \normalcolor #5\kern 
--\p@ \kern \p@ }\par }\fi  on input line 85.
+-\p@ \kern \p@ }\par }\fi  on input line 87.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -674,10 +675,6 @@ m (toc, 0): 17.62482pt
 C (toc, 0): 0.0pt
 a (toc, 0): 13.5pt
 A (toc, 0): 0.0pt
-m (toc, 0): 17.62482pt
-C (toc, 0): 0.0pt
-a (toc, 0): 13.5pt
-A (toc, 0): 0.0pt
 m (toc, -1): 23.49976pt
 C (toc, -1): 0.0pt
 a (toc, -1): 23.49976pt
@@ -708,11 +705,20 @@ No file arbeit.nls.
 [5
 
 ]
+\openout2 = `kapitel/content.aux'.
+
+
+No file kapitel/content.tex.
 \openout2 = `kapitel/introduction.aux'.
 
- (./kapitel/introduction.tex
+(./kapitel/introduction.tex
 chapter 1.
+
+LaTeX Warning: Citation `tannenbaum' on page 1 undefined on input line 3.
+
 ) [1
+
+
 
 
 
@@ -743,32 +749,28 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 
 
-])) [3] (./arbeit.bbl
-chapter without number
-) [7
-
-
-
-
-]
+])) [3] (./arbeit.bbl)
 part without number
-[8
+[7
+
+
+
 
 ]
 \openout2 = `kapitel/append.aux'.
 
- (./kapitel/append.tex) [9
+ (./kapitel/append.tex) [8
 
 
 ]
 \openout2 = `kapitel/erklaerung.aux'.
 
  (./kapitel/erklaerung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 27--151
+Underfull \hbox (badness 10000) in paragraph at lines 27--141
 
  []
 
-[10
+[9
 
 
 
@@ -776,39 +778,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--151
 \openout2 = `kapitel/abtretungserklaerung.aux'.
 
  (./kapitel/abtretungserklaerung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 29--154
+Underfull \hbox (badness 10000) in paragraph at lines 29--144
 
  []
 
-[11
+[10
 
 
 
 ] (./arbeit.aux (./kapitel/titel.aux) (./kapitel/abstract.aux)
-(./kapitel/introduction.aux) (./kapitel/grafiken.aux) (./kapitel/append.aux)
-(./kapitel/erklaerung.aux) (./kapitel/abtretungserklaerung.aux)) ) 
+(./kapitel/content.aux) (./kapitel/introduction.aux) (./kapitel/grafiken.aux)
+(./kapitel/append.aux) (./kapitel/erklaerung.aux)
+(./kapitel/abtretungserklaerung.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9303 strings out of 492616
- 179684 string characters out of 6129481
- 612691 words of memory out of 5000000
- 13011 multiletter control sequences out of 15000+600000
- 9680 words of font info for 34 fonts, out of 8000000 for 9000
+ 9301 strings out of 492616
+ 179655 string characters out of 6129481
+ 613120 words of memory out of 5000000
+ 13005 multiletter control sequences out of 15000+600000
+ 9333 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,20n,76p,9085b,2174s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on arbeit.pdf (13 pages, 139102 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on arbeit.pdf (12 pages, 125748 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
