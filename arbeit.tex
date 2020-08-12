@@ -12,7 +12,7 @@
 \usepackage{natbib}
 
 \usepackage{a4}  
-\usepackage[left=3cm,right=3cm,top=3cm,bottom=4cm]{geometry}
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
 \usepackage[english, ngerman]{babel}
 \usepackage[utf8]{inputenc} %damit k{\"o}nnen Umlaute ganz normal geschrieben werden. 
 \usepackage{indentfirst}  %Formatter 
@@ -138,8 +138,8 @@
 %appendices can be defined here, the appendix structure has to be added manually to the toc (table of contents)
 %\clearpage  %toc new page
 %\addcontentsline{toc}{chapter}{Appendix} %add chapter to toc
-\appendix
-\addpart{\appendixname}
+
+%\addpart{\appendixname}
 \include{chapter/append}
 
 
@@ -147,7 +147,6 @@
 %Eidesstattliche Erklaerung
 \include{chapter/erklaerung}
 
-%Abtretungs Erklaerung
-\include{chapter/abtretungserklaerung}
+
 
 \end{document}

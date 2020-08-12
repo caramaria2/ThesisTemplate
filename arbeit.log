@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.30)  12 AUG 2020 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.30)  12 AUG 2020 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -453,9 +453,7 @@ Package chngcntr Info: \counterwithout already defined.
 )
 (./arbeit.aux (./chapter/titel.aux) (./chapter/abstract.aux)
 (./chapter/content.aux) (./chapter/introduction.aux) (./chapter/grafiken.aux)
-(./chapter/chapter3.aux) (./chapter/append.aux)
-No file kapitel/erklaerung.aux.
-)
+(./chapter/chapter3.aux) (./chapter/append.aux) (./chapter/erklaerung.aux))
 \openout1 = `arbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -480,11 +478,11 @@ LaTeX Font Info:    ... okay on input line 93.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 426.79141pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 645.87766pt, 113.81102pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33041pt, 85.35826pt)
 * \paperwidth=597.50793pt
 * \paperheight=845.04694pt
 * \textwidth=426.79141pt
-* \textheight=645.87766pt
+* \textheight=674.33041pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-26.78673pt
@@ -677,20 +675,67 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 
-] (./arbeit.toc)
+] (./arbeit.toc
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 13.5pt
+A (toc, 0): 0.0pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 13.5pt
+A (toc, 0): 0.0pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 13.5pt
+A (toc, 0): 0.0pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 13.5pt
+A (toc, 0): 0.0pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 13.5pt
+A (toc, 0): 0.0pt
+m (toc, 1): 27.02475pt
+C (toc, 1): 13.5pt
+a (toc, 1): 20.88867pt
+A (toc, 1): 13.5pt
+m (toc, 1): 27.02475pt
+C (toc, 1): 13.5pt
+a (toc, 1): 20.88867pt
+A (toc, 1): 13.5pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 13.5pt
+A (toc, 0): 0.0pt
+m (toc, 0): 17.62482pt
+C (toc, 0): 0.0pt
+a (toc, 0): 13.5pt
+A (toc, 0): 0.0pt
+)
 \tf@toc=\write4
 \openout4 = `arbeit.toc'.
 
  [3
 
 
-] (./arbeit.lof)
+] (./arbeit.lof
+m (lof, 1): 27.02475pt
+C (lof, 1): 17.62482pt
+a (lof, 1): 11.74988pt
+A (lof, 1): 17.62482pt
+)
 \tf@lof=\write5
 \openout5 = `arbeit.lof'.
 
  [4
 
-] (./arbeit.lot)
+] (./arbeit.lot
+m (lot, 1): 27.02475pt
+C (lot, 1): 17.62482pt
+a (lot, 1): 11.74988pt
+A (lot, 1): 17.62482pt
+)
 \tf@lot=\write6
 \openout6 = `arbeit.lot'.
 
@@ -748,61 +793,46 @@ chapter without number
 
 
 ]
-part without number
-[8
-
-]
 \openout2 = `chapter/append.aux'.
 
- (./chapter/append.tex) [9
+ (./chapter/append.tex
+chapter without number
+) [8
 
 
 ]
 \openout2 = `chapter/erklaerung.aux'.
 
- (./chapter/erklaerung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 27--148
+ (./chapter/erklaerung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[10
-
-
-
-]
-\openout2 = `chapter/abtretungserklaerung.aux'.
-
- (./chapter/abtretungserklaerung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 29--151
-
- []
-
-[11
+) [9
 
 
 
 ] (./arbeit.aux (./chapter/titel.aux) (./chapter/abstract.aux)
 (./chapter/content.aux) (./chapter/introduction.aux) (./chapter/grafiken.aux)
-(./chapter/chapter3.aux) (./chapter/append.aux) (./chapter/erklaerung.aux)
-(./chapter/abtretungserklaerung.aux)) ) 
+(./chapter/chapter3.aux) (./chapter/append.aux) (./chapter/erklaerung.aux)) ) 
 Here is how much of TeX's memory you used:
- 9360 strings out of 492616
- 181002 string characters out of 6129481
- 404128 words of memory out of 5000000
- 13053 multiletter control sequences out of 15000+600000
- 9203 words of font info for 32 fonts, out of 8000000 for 9000
+ 9378 strings out of 492616
+ 181416 string characters out of 6129481
+ 404666 words of memory out of 5000000
+ 13075 multiletter control sequences out of 15000+600000
+ 8896 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,19n,70p,9085b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on arbeit.pdf (12 pages, 122317 bytes).
+</
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on arbeit.pdf (10 pages, 117304 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

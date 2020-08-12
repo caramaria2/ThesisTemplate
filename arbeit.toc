@@ -10,5 +10,3 @@
 \contentsline {chapter}{\numberline {2}Theoretical Foundation}{2}% 
 \babel@toc {english}{}
 \contentsline {chapter}{\nonumberline Bibliography}{vii}% 
-\contentsline {part}{\nonumberline Appendix}{viii}% 
-\contentsline {section}{\numberline {.1}Some appendix}{ix}% 
