@@ -1,12 +1,50 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{7}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{Tanenbaum \& Steen(2007)}]{tannenbaum}
-Tanenbaum, A.~S., \& Steen, M.~V. (2007).
-\newblock {\em {D}istributed {S}ystems - {P}rinciples and {P}aradigms\/}.
-\newblock New Jersey: Pearson Prentice Hall, 2nd edition ed.
+\bibitem[{Byrd \& Turner(2000)}]{terry2000measuring}
+Byrd, T.~A., \& Turner, D.~E. (2000).
+\newblock Measuring the flexibility of information technology infrastructure:
+  Exploratory analysis of a construct.
+\newblock {\em Journal of management information systems\/}, {\em 17\/}(1),
+  167--208.
+
+\bibitem[{Chin et~al.(2003)Chin, Marcolin, \& Newsted}]{chin2003partial}
+Chin, W.~W., Marcolin, B.~L., \& Newsted, P.~R. (2003).
+\newblock A partial least squares latent variable modeling approach for
+  measuring interaction effects: Results from a monte carlo simulation study
+  and an electronic-mail emotion/adoption study.
+\newblock {\em Information systems research\/}, {\em 14\/}(2), 189--217.
+
+\bibitem[{Fichman(2004)}]{fichman2004real}
+Fichman, R.~G. (2004).
+\newblock Real options and it platform adoption: Implications for theory and
+  practice.
+\newblock {\em Information systems research\/}, {\em 15\/}(2), 132--154.
+
+\bibitem[{Lewis et~al.(2003)Lewis, Agarwal, \& Sambamurthy}]{lewis2003sources}
+Lewis, W., Agarwal, R., \& Sambamurthy, V. (2003).
+\newblock Sources of influence on beliefs about information technology use: An
+  empirical study of knowledge workers.
+\newblock {\em MIS quarterly\/}, (pp. 657--678).
+
+\bibitem[{Soh \& Markus(1995)}]{soh1995creates}
+Soh, C., \& Markus, M.~L. (1995).
+\newblock How it creates business value: a process theory synthesis.
+\newblock {\em ICIS 1995 Proceedings\/}, (p.~4).
+
+\bibitem[{Tallon(2007)}]{tallon2007process}
+Tallon, P.~P. (2007).
+\newblock A process-oriented perspective on the alignment of information
+  technology and business strategy.
+\newblock {\em Journal of Management Information Systems\/}, {\em 24\/}(3),
+  227--268.
+
+\bibitem[{Venkatesh(2011)}]{venkatesh2011}
+Venkatesh, V. (2011).
+\newblock Road to success a guide for doctoral students and junior faculty
+  members in the behavioral and social sciences.
 
 \end{thebibliography}
